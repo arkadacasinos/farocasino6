@@ -42,7 +42,9 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="ru" className="bg-background">
-      <head><meta name="robots" content="index, follow" /><meta name="format-detection" content="telephone=no" />
+      <head>
+        <meta name="yandex-verification" content="8f54f09ce06454a2" />
+        <meta name="robots" content="index, follow" /><meta name="format-detection" content="telephone=no" />
         <script
   dangerouslySetInnerHTML={{
     __html: `
